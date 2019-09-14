@@ -1,0 +1,10 @@
+{
+    "name": "thisisbird/hello",
+    "description": "just hello",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Thisisbird\\Hello\\": "src/"
+        }
+    }
+}
