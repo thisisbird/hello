@@ -8,7 +8,7 @@ class HelloController extends Controller
 {
     //
     public function index(){
-        $message = 'hello world';
+        $message = 'hello world ver2';
         return view('HelloWorld::welcome',compact('message'));
     }
 }
